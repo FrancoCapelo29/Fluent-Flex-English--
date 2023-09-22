@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'open sans';
+    font-family: 'Mooli', sans-serif;
+
 }
 
 .contenedor {
@@ -17,7 +18,7 @@ body {
 }
 
 .titulo {
-    color: #642a73;
+    color: #d81c7a;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -30,9 +31,9 @@ header {
     height: 600px;
     background: #bc4e9c;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    /*background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
+    background: linear-gradient(to right, hsla(0, 15%, 88%, 0.459), hsla(0, 15%, 88%, 0.459)), url(../img/abi.webp);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
@@ -45,7 +46,7 @@ nav{
 }
 
 nav > a{
-    color:#fff;
+    color:#000000;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
@@ -67,13 +68,13 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color:#fff;
+    color:#0b0b0b;
 }
 
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color:#000000;
 }
 
 .wave{
@@ -186,10 +187,10 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #4d0686;
+    background: #d2abf3;
     display: flex;
     width: 46%;
-    height: 200px;
+    height: 250px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 5px;
@@ -197,8 +198,8 @@ main .sobre-nosotros{
 }
 
 .cards .card img{
-    width: 100px;
-    height: 100px;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
     border: 3px solid #fff;
     border-radius: 50%;
