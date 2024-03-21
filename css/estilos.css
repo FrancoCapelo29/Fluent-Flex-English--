@@ -18,7 +18,7 @@ body {
 }
 
 .titulo {
-    color: #d81c7a;
+    color: #8a344e;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -33,7 +33,7 @@ header {
     /* fallback for old browsers */
     /*background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.459), hsla(317, 45%, 52%, 0.664)), url(../img/portada.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(0, 2%, 19%, 0.46), hsla(0, 2%, 13%, 0.46)), url(../img/header.jpg);
+    background: linear-gradient(to right, hsla(0, 67%, 2%, 0.46), hsla(0, 33%, 1%, 0.46)), url(../img/HEADERIN.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: contain;
     background-attachment: fixed;
@@ -46,10 +46,11 @@ nav{
 }
 
 nav > a{
-    color:#000000;
+    color: #efedef;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
+    font-weight: 900;
 }
 
 nav > a:hover{
@@ -68,13 +69,19 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color: #e8e8e8;
+    color: #0e0101;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 900;
 }
 
 .textos-header h2{
     font-size: 30px;
     font-weight: 300;
-    color: #ece6e6;
+    color: #0c0000;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: 900;
 }
 
 .wave{
@@ -94,7 +101,7 @@ main .sobre-nosotros{
 }
 
 .imagen-about-us{
-    width: 48%;
+    width: 35%;
 }
 
 .sobre-nosotros .contenido-textos{
@@ -120,8 +127,9 @@ main .sobre-nosotros{
 
 .contenido-textos p{
     padding: 0px 0px 30px 15px;
-    font-weight: 300;
+    font-weight: 900;
     text-align: justify;
+    font-size: 1.2rem;
 }
 
 /* Galeria */
@@ -187,7 +195,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #d2abf3;
+    background: #42cccc;
     display: flex;
     width: 46%;
     height: 250px;
@@ -208,7 +216,8 @@ main .sobre-nosotros{
 
 .cards .card > .contenido-texto-card{
     width: 60%;
-    color: #fff;
+    color: #180505;
+    font-weight: 900;
 }
 
 .cards .card > .contenido-texto-card p{
